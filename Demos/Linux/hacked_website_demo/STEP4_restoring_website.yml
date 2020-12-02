@@ -1,6 +1,6 @@
 ---
 - name: This will restore the original website
-  hosts: 192.168.50.11
+  hosts: 192.168.1.116
   tasks:
   - name: Copy unhacked site to /var/www/html
     copy:
