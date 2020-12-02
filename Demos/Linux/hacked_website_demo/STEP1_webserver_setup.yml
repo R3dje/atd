@@ -1,6 +1,6 @@
 ---
 - name: This sets up an httpd webserver
-  hosts: 192.168.1.100
+  hosts: 192.168.1.116
   tasks:
   - name: install the latest version of Apache
     dnf:
